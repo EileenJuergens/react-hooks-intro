@@ -1,5 +1,10 @@
 import React, { useState } from "react";
 
+/* 
+* Login Form
+* With multiple state values 
+*/
+
 export default function Login () {
     const [userName, setUserName] = useState("")
     const [password, setPassword] = useState("")
@@ -19,9 +24,9 @@ export default function Login () {
 
     return (
         <div
-        style={{
-            textAlign: "center"
-        }}>
+            style={{
+                textAlign: "center"
+            }}>
             <h2>Login</h2>
             <form
                 style={{
